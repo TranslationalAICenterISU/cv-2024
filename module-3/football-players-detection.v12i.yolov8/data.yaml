@@ -1,0 +1,13 @@
+train: /Users/baditya/Work/git_repos/cv-2024/module-3/football-players-detection.v12i.yolov8/train/images
+val: /Users/baditya/Work/git_repos/cv-2024/module-3/football-players-detection.v12i.yolov8/valid/images
+test: /Users/baditya/Work/git_repos/cv-2024/module-3/football-players-detection.v12i.yolov8/test/images
+
+nc: 4
+names: ['ball', 'goalkeeper', 'player', 'referee']
+
+roboflow:
+  workspace: roboflow-jvuqo
+  project: football-players-detection-3zvbc
+  version: 12
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/12
